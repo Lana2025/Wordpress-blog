@@ -1,0 +1,83 @@
+/*
+Theme Name: lanatest
+Description: Teame built with Bootstrap
+Author: Lana
+Author URI: Lana
+Version: 1.0
+Tags: responsive,  bootstrap
+
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+ h1,h2,h3{
+	 text-align: center;
+	 padding:10px 0;
+ }
+ h3 img {
+	 text-align: center;
+ }
+ 
+ .header-main{
+	 background: #000;
+ }
+ .dark{
+	 background: #276f7d;
+	 color: #fff;
+ }
+ .dark a{
+	color: #fff!important;
+	text-decoration:none;
+	text-transform: uppercase
+ }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffff!important;
+}
+ .nav-link:focus, .nav-link:hover {
+    color: #fff!important;
+}
+.navbar-expand-md .navbar-nav .dropdown-menu {
+    background: #000!important;
+}
+ div.container {
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto; 
+}
+img {
+  width: 100%; 
+  height: auto; 
+}
+figure {
+    width: 100%!important;
+}
+.card-title a{
+     color:#000;
+	 text-decoration:none;
+}
+
+.card{
+	padding:20px;
+}
+.follow{
+	border: 1px solid blue; 
+    padding: 2px; 
+    text-decoration: none; 
+   }
+  .follow:hover {
+    border: 1px solid red;
+   }
+.footer-main{
+	background: #000;
+    text-align: center;
+    padding: 15px 12px;
+    margin: 50px 0 0;
+	color: #fff;
+ }
+ .responsive img{
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+	 
